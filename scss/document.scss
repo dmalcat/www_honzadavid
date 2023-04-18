@@ -1,0 +1,25 @@
+body {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    @media screen and (max-width: 940px) {
+        font-size: 14px;
+    }
+
+    @media screen and (max-width: 390px) {
+        font-size: 13px;
+    }
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0;
+    gap: 1rem;
+}
+
+.row--4c {
+	div {
+        background-color: $blue;
+		@include make-col(4, 2rem);
+	}
+}

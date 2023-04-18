@@ -1,0 +1,7 @@
+@mixin make-col($number-of-cols, $gap: 0) {
+	width: calc((100%/#{$number-of-cols}) - #{$gap});
+    gap: $gap;
+}
+
+
+

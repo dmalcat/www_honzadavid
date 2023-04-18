@@ -1,0 +1,30 @@
+.box {
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    flex-flow: row wrap;
+    gap: 2rem;
+    .box__item {
+        padding: 2rem;
+        background-color: $blue;
+        border: 1px solid blue;
+        @media screen and (max-width: 768px) {
+            border-width: 2px;
+        }
+    }
+    
+    .box__link--yellow {
+        color: yellow;
+    }
+
+    .box__link--red {
+        color: red;
+    }
+}
+
+.box--blue {
+    background-color: darkblue;
+} 

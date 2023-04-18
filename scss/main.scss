@@ -1,2 +1,6 @@
-.test {
-    color: black;
+@import 'config.scss';
+@import 'mixins.scss';
+
+@import 'document.scss';
+@import 'box.scss';
+@import 'button.scss';
